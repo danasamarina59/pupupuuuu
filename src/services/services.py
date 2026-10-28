@@ -1,8 +1,12 @@
-from repositories import (
+# Импорт теперь из папки repositories
+from repositories.repositories import (
     get_client_by_id, get_master_by_id, get_service_by_id,
     get_master_appointments_for_day, create_appointment,
     update_appointment_status
 )
+import datetime
+
+# ... остальной ваш код (book_appointment, confirm_booking и т.д.) ...
 
 
 def book_appointment(client_id: int, master_id: int, service_id: int, date: str, start_time: str):

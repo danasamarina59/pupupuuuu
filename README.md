@@ -43,7 +43,7 @@
 Серверная часть: Язык программирования Python
 
  ## Типовая структурв проекта
-![img.png](img.png)
+![img.png](src/img.png)
 ## Запуск 
 Python scr/main.py
 
@@ -51,7 +51,7 @@ Python scr/main.py
 Самарина Дана Георгиевна 
 
 ### Use case диаграмма
-![img_1.png](img_1.png)
+![img_1.png](docs/Diagramms/img_1.png)
 
 # Салон красоты — База данных
 
@@ -76,7 +76,7 @@ Python scr/main.py
 | appointments | Записи клиентов |
 
 ### Работа Программы
-![img_1.png](img_1.png)
+![img_1.png](docs/Diagramms/img_1.png)
 ## Запуск
 
 ```bash
