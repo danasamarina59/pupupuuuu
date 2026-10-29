@@ -70,7 +70,7 @@ def admin_menu(user):
 
 # ==================== МЕНЮ КЛИЕНТА ====================
 def client_menu(user):
-    # Берем ID клиента из таблицы users (в вашей БД это совпадает с client_id)
+   
     client_id = user['user_id']
 
     while True:
@@ -151,7 +151,7 @@ def login():
     clear()
     print("===== ВХОД В СИСТЕМУ =====")
     login_val = input("Логин: ")
-    input("Пароль: ")  # Для лабы пароль просто считываем, проверяем только логин
+    input("Пароль: ") 
 
     # Ищем пользователя в базе
     user = get_user_by_login(login_val)
